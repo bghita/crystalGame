@@ -1,3 +1,6 @@
+#heading {
+    width: 100% !important;
+}
 #title{
     font-family: 'Pacifico', cursive;
     font-size: 50px;
@@ -15,25 +18,48 @@
 }
 .footer {
     background: rgb(147, 132, 199);
-    text-align: center;
-    font-size: 8px;
-    padding: 25px;
+    padding: 30px;
     border-top: rgb(180, 177, 184) solid 9px;
-    bottom:0px;
-    width: 100% !important;
+    width: 1600px;
 }
 #wins {
     font-family: 'Lobster', cursive;
     font-size: 20px;
+    color: rgb(61, 10, 61);
 }
 #losses {
     font-family: 'Lobster', cursive;
     font-size: 20px;
+    color: rgb(61, 10, 61);
 }
 #score {
     font-family: 'Lobster', cursive;
     font-size: 22px;
+    color: rgb(61, 10, 61);
 }
-#background {
-    background-image: url("./images/stars.jpg");
+.background {
+    background-size: 1600px 750px;
+    background-repeat: no-repeat;
+    background-image: url("../images/stars.jpg");
+}
+.crystal-image {
+    width: 25%;
+    height: 250px;
+}
+#runningTotal {
+    width: 20%;
+    height: 40px;
+    background-color: rgba(164, 148, 221, 0.726);
+    margin: 0 auto;
+}
+
+#scoreBoard {
+    width: 20%;
+    height: 75px;
+    background-color: rgba(164, 148, 221, 0.726);
+    /* float:right; */
+    margin: 0 auto;
+}
+.container {
+   min-height: 89vh;
 }
