@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico|Quicksand&display=swap" rel="stylesheet">
     <style type="text/css">
         .crystal-image {
             width: 25%;
@@ -15,23 +14,24 @@
         }
 
         #runningTotal {
-            width: 25%;
-            height: 200px;
-            background-color: aqua;
-            float: left;
+            width: 20%;
+            height: 40px;
+            background-color: rgb(154, 221, 148);
+            margin: 0 auto;
         }
 
         #scoreBoard {
-            width: 50%;
-            height: 200px;
-            background-color: green;
-            /* margin: 0 auto; */
+            width: 20%;
+            height: 75px;
+            background-color: rgb(147, 132, 199);
+            /* float:right; */
+            margin: 0 auto;
         }
     </style>
 
 </head>
 
-<body>
+<body background="./images/stars.jpg">
     <div class="container">
         <div class="row abouttop" style="margin: 0px; background: rgb(147, 132, 199);">
             <div class="col-lg-12">
@@ -44,9 +44,10 @@
                 </center>
             </div>
         </div>
-        <!-- Note that this div is now empty. We will fill it dynamically -->
+        <br>
         <div id="crystals">
         </div>
+        <br>
         <div id="runningTotal">
             <p id="score">Your Score:</p>
         </div>
@@ -56,7 +57,7 @@
         </div>
 
         <!-- JAVASCRIPT  -->
-        <!-- ========================================= -->
+
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
         <script type="text/javascript">
@@ -152,7 +153,14 @@
 
             });
 
-        </script>
-</body>
-
-</html>
+            </script>
+            <br>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer"></div>
+            </div>
+        </div>
+        </div>
+        </body>
+        
+        </html>
