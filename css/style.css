@@ -4,11 +4,13 @@
 #title{
     font-family: 'Pacifico', cursive;
     font-size: 50px;
+    text-align: center;
     color: rgb(61, 10, 61);
 }
 #title2{
     font-family: 'Quicksand', sans-serif;
     color:whitesmoke;
+    text-align: center;
 }
 #crystals{
     background-image: image-set()
@@ -20,7 +22,7 @@
     background: rgb(147, 132, 199);
     padding: 30px;
     border-top: rgb(180, 177, 184) solid 9px;
-    width: 1600px;
+    width: 1700px;
 }
 #wins {
     font-family: 'Lobster', cursive;
@@ -38,7 +40,7 @@
     color: rgb(61, 10, 61);
 }
 .background {
-    background-size: 1600px 750px;
+    background-size: 1700px 750px;
     background-repeat: no-repeat;
     background-image: url("../images/stars.jpg");
 }
@@ -57,9 +59,11 @@
     width: 20%;
     height: 75px;
     background-color: rgba(164, 148, 221, 0.726);
-    /* float:right; */
     margin: 0 auto;
 }
 .container {
    min-height: 89vh;
+}
+.col-lg-12{
+    widows: 1700px;
 }
